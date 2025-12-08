@@ -13,6 +13,7 @@ He construido bastantes proyectos de clase, pero en mi tiempo libre... probablem
 Si quieres ver cómo lo hago, ¡échale un vistazo a mis repositorios!
 
 **👨‍💻 ¿Qué me hace diferente?**
+
 Apasionado autodidacta: Cuando no estoy en clase, estoy experimentando con código
 
 Solucionador creativo: Veo cada error como un puzzle por resolver
