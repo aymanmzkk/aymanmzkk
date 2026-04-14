@@ -26,15 +26,6 @@
 
 ---
 
-## 📊 Mis Estadísticas de GitHub
-
-Aquí puedes ver mi actividad reciente y los lenguajes que más utilizo:
-
-![Estadísticas de Ayman](https://github-readme-stats.vercel.app/api?username=aymanmzkk&show_icons=true&theme=radical)
-![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=aymanmzkk&layout=compact&theme=radical)
-
----
-
 ## 📫 Conecta conmigo
 
 * 💼 **LinkedIn:** https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/
