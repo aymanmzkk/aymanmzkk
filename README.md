@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Ayman Mouzakki · Desarrollador web · Valencia" />
+<img src="assets/banner-v3.svg" width="100%" alt="Ayman Mouzakki · Desarrollador web · Valencia" />
 
 <p align="center">
   <a href="https://aymanmzkk.github.io/Portafolio/"><img src="https://img.shields.io/badge/Portafolio-0B1220?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portafolio" /></a>
@@ -76,4 +76,4 @@ Me gusta convertir ideas en aplicaciones completas: desde el diseño de la base 
   <a href="mailto:aymanmouzakki17@gmail.com"><b>aymanmouzakki17@gmail.com</b></a> · <a href="https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/">LinkedIn</a> · <a href="https://aymanmzkk.github.io/Portafolio/">Portafolio</a>
 </p>
 
-<img src="assets/footer.svg" width="100%" alt="Gracias por pasar" />
+<img src="assets/footer-v3.svg" width="100%" alt="Gracias por pasar" />
