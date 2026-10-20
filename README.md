@@ -1,69 +1,79 @@
 <img src="assets/banner.svg" width="100%" alt="Ayman Mouzakki · Desarrollador web · Valencia" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3200&pause=900&color=00E5FF&center=true&vCenter=true&width=700&height=40&lines=%3E+Inicializando+perfil...;%3E+Desarrollador+web+%40+Globearea;%3E+Python+%C2%B7+PHP+%C2%B7+JavaScript+%C2%B7+MySQL;%3E+Del+concepto+al+despliegue." alt="Desarrollador web en Globearea · Python, PHP, JavaScript y MySQL" />
+  <a href="https://aymanmzkk.github.io/Portafolio/"><img src="https://img.shields.io/badge/Portafolio-0B1220?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portafolio" /></a>
+  <a href="https://aymanmzkk.github.io/Curriculum/"><img src="https://img.shields.io/badge/CV-0B1220?style=for-the-badge&logo=readdotcv&logoColor=3B82F6" alt="CV" /></a>
+  <a href="https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/"><img src="https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=8B5CF6" alt="LinkedIn" /></a>
+  <a href="mailto:aymanmouzakki17@gmail.com"><img src="https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=14B8A6" alt="Email" /></a>
 </p>
+
+<img src="assets/seccion-perfil.svg" width="100%" alt="Sobre mí" />
+
+Soy **desarrollador web en [Globearea](https://globearea.com)** y estudiante de **2º de Desarrollo de Aplicaciones Multiplataforma** en Valencia.
+Me gusta convertir ideas en aplicaciones completas: desde el diseño de la base de datos hasta la última pantalla.
+
+- 💼 Desarrollo web y plataformas de clientes con PHP, MySQL y JavaScript
+- 🎓 2º de DAM en CEAC FP Valencia
+- 🌍 Hablo árabe, darija, francés, inglés y español
+
+<img src="assets/seccion-tecnologias.svg" width="100%" alt="Tecnologías" />
 
 <p align="center">
-  <a href="https://aymanmzkk.github.io/Portafolio/"><img src="https://img.shields.io/badge/PORTAFOLIO-03060C?style=for-the-badge&logo=githubpages&logoColor=00E5FF" alt="Portafolio" /></a>
-  <a href="https://aymanmzkk.github.io/Curriculum/"><img src="https://img.shields.io/badge/CV-03060C?style=for-the-badge&logo=readdotcv&logoColor=00E5FF" alt="CV" /></a>
-  <a href="https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/"><img src="https://img.shields.io/badge/LINKEDIN-03060C?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" /></a>
-  <a href="mailto:aymanmouzakki17@gmail.com"><img src="https://img.shields.io/badge/EMAIL-03060C?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email" /></a>
+  <img src="https://skillicons.dev/icons?i=py,flask,php,laravel,js,ts,react,html,css,tailwind,mysql,supabase,git,github,vscode&theme=dark&perline=8" alt="Python, Flask, PHP, Laravel, JavaScript, TypeScript, React, HTML, CSS, Tailwind, MySQL, Supabase, Git, GitHub, VS Code" />
 </p>
 
-## ◢ Perfil del operador
-
-```yaml
-operador:   Ayman Mouzakki
-rol:        Desarrollador web @ Globearea
-formación:  2º Desarrollo de Aplicaciones Multiplataforma · CEAC FP Valencia
-base:       Valencia, España
-idiomas:    [árabe, darija, francés, inglés, español]
-enfoque:    aplicaciones web completas, de la base de datos a la interfaz
-estado:     ● operativo
-```
-
-## ◢ Arsenal tecnológico
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,flask,php,laravel,js,ts,react,html,css,tailwind,mysql,supabase,git,github,vscode&theme=dark&perline=15" alt="Python, Flask, PHP, Laravel, JavaScript, TypeScript, React, HTML, CSS, Tailwind, MySQL, Supabase, Git, GitHub, VS Code" />
-</p>
-
-| Módulo | Sistemas |
-| :-- | :-- |
-| **Backend** | Python · Flask · PHP · Laravel · API REST |
-| **Frontend** | JavaScript · TypeScript · React · Tailwind · HTML · CSS |
-| **Datos** | MySQL · SQL · SQLite · Supabase (PostgreSQL) |
-| **Herramientas** | Git · GitHub · VS Code · Vercel · VirtualBox |
-
-## ◢ Registro de misiones
+<img src="assets/seccion-proyectos.svg" width="100%" alt="Proyectos" />
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/aymanmzkk/KOOK"><img src="https://aymanmzkk.github.io/Portafolio/img/kook-home.webp" alt="KOOK" /></a>
+      <h3><a href="https://github.com/aymanmzkk/KOOK">KOOK</a></h3>
+      Tienda online de kits de cocina con carrito, pedidos, login por roles y panel de administración, en español e inglés.
+      <br><br><code>Python</code> <code>Flask</code> <code>MySQL</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/aymanmzkk/kelma-parola"><img src="assets/portada-kelma.svg" alt="Kelma &amp; Parola" /></a>
+      <h3><a href="https://github.com/aymanmzkk/kelma-parola">Kelma &amp; Parola</a></h3>
+      App instalable para aprender idiomas en grupo: una palabra al día, retos, vocabulario y racha compartida.
+      <br><br><code>React</code> <code>TypeScript</code> <code>Supabase</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/portada-dietech.svg" alt="Dietech" />
+      <h3>Dietech</h3>
+      Dietas personalizadas según edad, peso, actividad y objetivo, con pedidos de platos preparados.
+      <br><br><code>PHP</code> <code>Laravel</code> <code>MySQL</code>
     </td>
     <td width="50%" valign="top">
       <a href="https://aymanmzkk.github.io/Mis-Proyectos/reloj-mundial.html"><img src="https://aymanmzkk.github.io/Portafolio/img/reloj.webp" alt="Reloj mundial" /></a>
+      <h3><a href="https://aymanmzkk.github.io/Mis-Proyectos/reloj-mundial.html">Reloj mundial</a></h3>
+      Reloj analógico en canvas con la hora de distintos países en tiempo real. Tiene demo en vivo.
+      <br><br><code>JavaScript</code> <code>Canvas</code> <code>Intl</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/aymanmzkk/programacion-1DAM"><img src="assets/portada-satori.svg" alt="Satori" /></a>
+      <h3><a href="https://github.com/aymanmzkk/programacion-1DAM">Satori</a></h3>
+      Buscador web hecho desde cero: un crawler indexa páginas en MySQL y se busca desde una interfaz en PHP.
+      <br><br><code>Python</code> <code>PHP</code> <code>MySQL</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/BryanGF-hg/WePlan"><img src="assets/portada-weplan.svg" alt="WePlan" /></a>
+      <h3><a href="https://github.com/BryanGF-hg/WePlan">WePlan</a></h3>
+      Plataforma para crear y unirse a actividades por categoría, desarrollada en equipo de dos.
+      <br><br><code>PHP</code> <code>MySQL</code> <code>CSS</code>
     </td>
   </tr>
 </table>
 
-| Misión | Descripción | Tecnología | Estado |
-| :-- | :-- | :-- | :-: |
-| [**KOOK**](https://github.com/aymanmzkk/KOOK) | Tienda de kits de cocina: carrito, pedidos, roles y panel de administración en ES/EN | Python · Flask · MySQL | ![Operativo](https://img.shields.io/badge/OPERATIVO-00E5FF?style=flat-square) |
-| [**Kelma & Parola**](https://github.com/aymanmzkk/kelma-parola) | App PWA para aprender idiomas en grupo: palabra diaria, retos y racha compartida | React · TypeScript · Supabase | ![En desarrollo](https://img.shields.io/badge/EN%20DESARROLLO-F5A623?style=flat-square) |
-| **Dietech** | Dietas personalizadas según edad, peso, actividad y objetivo, con pedidos de platos | PHP · Laravel · MySQL | ![En desarrollo](https://img.shields.io/badge/EN%20DESARROLLO-F5A623?style=flat-square) |
-| [**Reloj mundial**](https://aymanmzkk.github.io/Mis-Proyectos/reloj-mundial.html) | Reloj analógico en canvas con la hora de distintos países, en tiempo real | JavaScript · Canvas | ![Demo](https://img.shields.io/badge/DEMO%20EN%20VIVO-00E5FF?style=flat-square) |
-| [**Buscador Satori**](https://github.com/aymanmzkk/programacion-1DAM) | Crawler que indexa webs en MySQL y buscador en PHP | Python · PHP · MySQL | ![Operativo](https://img.shields.io/badge/OPERATIVO-00E5FF?style=flat-square) |
-| [**WePlan**](https://github.com/BryanGF-hg/WePlan) | Plataforma para crear y unirse a actividades, en equipo de dos | PHP · MySQL | ![Equipo](https://img.shields.io/badge/EN%20EQUIPO-8B5CF6?style=flat-square) |
+<img src="assets/seccion-contacto.svg" width="100%" alt="Contacto" />
 
-## ◢ Canal de comunicación
-
-<p>
-  📡 <a href="mailto:aymanmouzakki17@gmail.com">aymanmouzakki17@gmail.com</a> &nbsp;·&nbsp;
-  🛰️ <a href="https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/">LinkedIn</a> &nbsp;·&nbsp;
-  🌐 <a href="https://aymanmzkk.github.io/Portafolio/">Portafolio</a>
+<p align="center">
+  ¿Quieres hablar de un proyecto o ver más de mi trabajo?<br>
+  <a href="mailto:aymanmouzakki17@gmail.com"><b>aymanmouzakki17@gmail.com</b></a> · <a href="https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/">LinkedIn</a> · <a href="https://aymanmzkk.github.io/Portafolio/">Portafolio</a>
 </p>
 
-<img src="assets/footer.svg" width="100%" alt="Fin de la transmisión" />
+<img src="assets/footer.svg" width="100%" alt="Gracias por pasar" />

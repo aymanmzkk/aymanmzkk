@@ -1,18 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="Fin de la transmisión">
-  <title>Fin de la transmisión</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-label="Gracias por pasar">
+  <title>Gracias por pasar</title>
   <defs>
-    <linearGradient id="pulse" x1="0" x2="1">
-      <stop offset="0" stop-color="#00E5FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#00E5FF" stop-opacity="1"/>
-      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
-    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#FFFFFF" fill-opacity="0.09"/></pattern>
+    <linearGradient id="brand" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <clipPath id="fc"><rect width="1200" height="130" rx="16"/></clipPath>
   </defs>
   <style>
-    .p { animation: p 4s ease-in-out infinite; }
-    @keyframes p { from { transform: translateX(-240px) } to { transform: translateX(1200px) } }
-  </style>
-  <rect width="1200" height="70" rx="6" fill="#03060C"/>
-  <line x1="24" y1="22" x2="1176" y2="22" stroke="#00E5FF" stroke-opacity="0.25"/>
-  <rect class="p" x="0" y="21" width="240" height="2" fill="url(#pulse)"/>
-  <text x="600.0" y="50" text-anchor="middle" font-family="Consolas, 'SFMono-Regular', 'Liberation Mono', Menlo, monospace" font-size="13" fill="#00E5FF" fill-opacity="0.75" letter-spacing="3">// FIN DE LA TRANSMISIÓN · GRACIAS POR VISITAR //</text>
+    .blob { animation: float ease-in-out infinite alternate; }
+    @keyframes float { 0% { transform: translate(0, 0) } 50% { transform: translate(60px, -30px) } 100% { transform: translate(-50px, 25px) } }
+    .tw { transform-box: fill-box; transform-origin: center; animation: tw ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity: .15; transform: scale(.6) } 50% { opacity: 1; transform: scale(1) } }
+
+    .w { animation: wave 8s linear infinite; }
+    .w2 { animation: wave 12s linear infinite reverse; }
+    @keyframes wave { from { transform: translateX(0) } to { transform: translateX(-600px) } }
+    .t { animation: fade 1.2s ease-out .3s both; }
+    @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+</style>
+  <g clip-path="url(#fc)">
+    <rect width="1200" height="130" fill="#0B1220"/>
+    <g><circle class="blob" cx="200" cy="120" r="120" fill="#14B8A6" opacity="0.3" filter="url(#blur)" style="animation-duration:14s;animation-delay:-2s"/><circle class="blob" cx="1000" cy="10" r="130" fill="#8B5CF6" opacity="0.3" filter="url(#blur)" style="animation-duration:16s;animation-delay:-5s"/></g>
+    <g transform="translate(0 0)"><path class="w" d="M0,110.0 L20,111.5 L40,112.8 L60,114.1 L80,115.2 L100,116.1 L120,116.7 L140,117.0 L160,117.0 L180,116.7 L200,116.1 L220,115.2 L240,114.1 L260,112.8 L280,111.5 L300,110.0 L320,108.5 L340,107.2 L360,105.9 L380,104.8 L400,103.9 L420,103.3 L440,103.0 L460,103.0 L480,103.3 L500,103.9 L520,104.8 L540,105.9 L560,107.2 L580,108.5 L600,110.0 L620,111.5 L640,112.8 L660,114.1 L680,115.2 L700,116.1 L720,116.7 L740,117.0 L760,117.0 L780,116.7 L800,116.1 L820,115.2 L840,114.1 L860,112.8 L880,111.5 L900,110.0 L920,108.5 L940,107.2 L960,105.9 L980,104.8 L1000,103.9 L1020,103.3 L1040,103.0 L1060,103.0 L1080,103.3 L1100,103.9 L1120,104.8 L1140,105.9 L1160,107.2 L1180,108.5 L1200,110.0 L1220,111.5 L1240,112.8 L1260,114.1 L1280,115.2 L1300,116.1 L1320,116.7 L1340,117.0 L1360,117.0 L1380,116.7 L1400,116.1 L1420,115.2 L1440,114.1 L1460,112.8 L1480,111.5 L1500,110.0 L1520,108.5 L1540,107.2 L1560,105.9 L1580,104.8 L1600,103.9 L1620,103.3 L1640,103.0 L1660,103.0 L1680,103.3 L1700,103.9 L1720,104.8 L1740,105.9 L1760,107.2 L1780,108.5 L1800,110.0 L1820,111.5 L1840,112.8 L1860,114.1 L1880,115.2 L1900,116.1 L1920,116.7 L1940,117.0 L1960,117.0 L1980,116.7 L2000,116.1 L2020,115.2 L2040,114.1 L2060,112.8 L2080,111.5 L2100,110.0 L2120,108.5 L2140,107.2 L2160,105.9 L2180,104.8 L2200,103.9 L2220,103.3 L2240,103.0 L2260,103.0 L2280,103.3 L2300,103.9 L2320,104.8 L2340,105.9 L2360,107.2 L2380,108.5 L2400,110.0" fill="none" stroke="url(#brand)" stroke-width="2" opacity="0.5"/></g>
+    <g transform="translate(0 -6)"><path class="w2" d="M0,110.0 L20,111.5 L40,112.8 L60,114.1 L80,115.2 L100,116.1 L120,116.7 L140,117.0 L160,117.0 L180,116.7 L200,116.1 L220,115.2 L240,114.1 L260,112.8 L280,111.5 L300,110.0 L320,108.5 L340,107.2 L360,105.9 L380,104.8 L400,103.9 L420,103.3 L440,103.0 L460,103.0 L480,103.3 L500,103.9 L520,104.8 L540,105.9 L560,107.2 L580,108.5 L600,110.0 L620,111.5 L640,112.8 L660,114.1 L680,115.2 L700,116.1 L720,116.7 L740,117.0 L760,117.0 L780,116.7 L800,116.1 L820,115.2 L840,114.1 L860,112.8 L880,111.5 L900,110.0 L920,108.5 L940,107.2 L960,105.9 L980,104.8 L1000,103.9 L1020,103.3 L1040,103.0 L1060,103.0 L1080,103.3 L1100,103.9 L1120,104.8 L1140,105.9 L1160,107.2 L1180,108.5 L1200,110.0 L1220,111.5 L1240,112.8 L1260,114.1 L1280,115.2 L1300,116.1 L1320,116.7 L1340,117.0 L1360,117.0 L1380,116.7 L1400,116.1 L1420,115.2 L1440,114.1 L1460,112.8 L1480,111.5 L1500,110.0 L1520,108.5 L1540,107.2 L1560,105.9 L1580,104.8 L1600,103.9 L1620,103.3 L1640,103.0 L1660,103.0 L1680,103.3 L1700,103.9 L1720,104.8 L1740,105.9 L1760,107.2 L1780,108.5 L1800,110.0 L1820,111.5 L1840,112.8 L1860,114.1 L1880,115.2 L1900,116.1 L1920,116.7 L1940,117.0 L1960,117.0 L1980,116.7 L2000,116.1 L2020,115.2 L2040,114.1 L2060,112.8 L2080,111.5 L2100,110.0 L2120,108.5 L2140,107.2 L2160,105.9 L2180,104.8 L2200,103.9 L2220,103.3 L2240,103.0 L2260,103.0 L2280,103.3 L2300,103.9 L2320,104.8 L2340,105.9 L2360,107.2 L2380,108.5 L2400,110.0" fill="none" stroke="url(#brand)" stroke-width="1.2" opacity="0.3"/></g>
+  </g>
+  <g class="t">
+    <text x="600.0" y="60" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF">Gracias por pasar</text>
+    <text x="600.0" y="92" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#94A3B8">Ayman Mouzakki · Valencia</text>
+  </g>
 </svg>

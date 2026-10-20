@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="338" viewBox="0 0 600 338" role="img" aria-label="Kelma &amp; Parola">
+  <title>Kelma &amp; Parola</title>
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#FFFFFF" fill-opacity="0.09"/></pattern>
+    <linearGradient id="brand" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+  <style>
+    .blob { animation: float ease-in-out infinite alternate; }
+    @keyframes float { 0% { transform: translate(0, 0) } 50% { transform: translate(60px, -30px) } 100% { transform: translate(-50px, 25px) } }
+    .tw { transform-box: fill-box; transform-origin: center; animation: tw ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity: .15; transform: scale(.6) } 50% { opacity: 1; transform: scale(1) } }
+
+    .cspin { transform-box: view-box; transform-origin: 500px 70px; animation: spin linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+
+    @keyframes up { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: none } }
+
+    .n { animation: up .8s ease-out .2s both; }
+    .s { animation: up .8s ease-out .5s both; }
+    .chip { animation: up .6s ease-out both; }
+</style>
+  <rect width="600" height="338" rx="16" fill="#0B1220"/>
+  <g><circle class="blob" cx="140" cy="300" r="150" fill="#8B5CF6" opacity="0.45" filter="url(#blur)" style="animation-duration:12s;animation-delay:-3s"/><circle class="blob" cx="480" cy="40" r="140" fill="#22D3EE" opacity="0.4" filter="url(#blur)" style="animation-duration:15s;animation-delay:-1s"/></g>
+  <rect width="600" height="338" rx="16" fill="url(#dots)"/>
+  <g><g class="cspin" style="animation-duration:12s;animation-direction:normal"><circle cx="500" cy="70" r="40" fill="none" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1.4" stroke-dasharray="3 6"/><circle cx="540" cy="70" r="3" fill="#8B5CF6" filter="url(#glow)" transform="rotate(30 500 70)"/></g><g class="cspin" style="animation-duration:20s;animation-direction:reverse"><circle cx="500" cy="70" r="64" fill="none" stroke="#22D3EE" stroke-opacity="0.45" stroke-width="1.4" stroke-dasharray="40 10"/><circle cx="564" cy="70" r="3.5" fill="#22D3EE" filter="url(#glow)" transform="rotate(200 500 70)"/></g></g>
+  <g><path class="tw" d="M46.4 58.0 L47.4 60.4 L49.9 61.5 L47.4 62.5 L46.4 65.0 L45.3 62.5 L42.9 61.5 L45.3 60.4 Z" fill="#FFFFFF" style="animation-duration:3.7s;animation-delay:-0.6s"/><path class="tw" d="M98.5 90.5 L99.8 93.6 L102.9 94.9 L99.8 96.2 L98.5 99.3 L97.2 96.2 L94.1 94.9 L97.2 93.6 Z" fill="#FFFFFF" style="animation-duration:2.4s;animation-delay:-3.0s"/><path class="tw" d="M384.3 64.4 L385.5 67.1 L388.2 68.2 L385.5 69.4 L384.3 72.1 L383.2 69.4 L380.5 68.2 L383.2 67.1 Z" fill="#FFFFFF" style="animation-duration:3.1s;animation-delay:-1.7s"/><path class="tw" d="M558.1 53.5 L558.9 55.3 L560.6 56.1 L558.9 56.8 L558.1 58.6 L557.3 56.8 L555.5 56.1 L557.3 55.3 Z" fill="#FFFFFF" style="animation-duration:4.3s;animation-delay:-1.6s"/><path class="tw" d="M143.2 119.1 L144.2 121.5 L146.6 122.5 L144.2 123.5 L143.2 125.9 L142.2 123.5 L139.8 122.5 L142.2 121.5 Z" fill="#FFFFFF" style="animation-duration:4.4s;animation-delay:-0.8s"/><path class="tw" d="M152.8 189.9 L154.0 192.6 L156.7 193.8 L154.0 194.9 L152.8 197.6 L151.6 194.9 L148.9 193.8 L151.6 192.6 Z" fill="#FFFFFF" style="animation-duration:4.4s;animation-delay:-3.4s"/></g>
+  <text class="n" x="300.0" y="158" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Kelma &amp; Parola</text>
+  <text class="s" x="300.0" y="194" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">Aprender idiomas en grupo</text>
+  <g class="chip" style="animation-delay:0.90s"><rect x="148" y="222" width="71" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="183" y="242" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">React</text></g><g class="chip" style="animation-delay:1.05s"><rect x="228" y="222" width="116" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="286" y="242" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">TypeScript</text></g><g class="chip" style="animation-delay:1.20s"><rect x="354" y="222" width="98" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="404" y="242" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">Supabase</text></g>
+</svg>

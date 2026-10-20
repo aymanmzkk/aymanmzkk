@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="Proyectos">
+  <title>Proyectos</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+    <linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.18"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="1200" height="72" rx="14"/></clipPath>
+  </defs>
+  <style>
+    @keyframes up { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: none } }
+
+    .t { animation: in .8s ease-out .15s both; }
+    @keyframes in { from { opacity: 0; transform: translateX(-14px) } to { opacity: 1; transform: none } }
+    .u { transform-box: fill-box; transform-origin: left; animation: grow 1.2s cubic-bezier(.2,.8,.2,1) .5s both; }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    .p { transform-box: fill-box; transform-origin: center; animation: ping 2.4s ease-out infinite; }
+    @keyframes ping { 0% { transform: scale(1); opacity: .7 } 100% { transform: scale(2.6); opacity: 0 } }
+    .d { animation: dot 1.4s ease-in-out infinite; }
+    @keyframes dot { 0%,100% { opacity: .2 } 50% { opacity: 1 } }
+    .sweep { animation: sweep 5s linear infinite; }
+    @keyframes sweep { from { transform: translateX(-200px) } to { transform: translateX(1200px) } }
+</style>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="72" fill="#0B1220"/>
+    <rect class="sweep" width="200" height="72" fill="url(#sw)"/>
+  </g>
+  <circle class="p" cx="40" cy="36" r="7" fill="#8B5CF6"/>
+  <circle cx="40" cy="36" r="7" fill="#8B5CF6"/>
+  <g class="t">
+    <text x="66" y="45" font-family="Consolas, 'SFMono-Regular', Menlo, 'Liberation Mono', monospace" font-size="15" fill="#8B5CF6">03</text>
+    <text x="96" y="46" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#F1F5F9">Proyectos</text>
+  </g>
+  <rect class="u" x="96" y="56" width="420" height="3" rx="1.5" fill="url(#g)"/>
+  <circle class="d" cx="1130" cy="36" r="3.5" fill="#8B5CF6" style="animation-delay:0.0s"/><circle class="d" cx="1146" cy="36" r="3.5" fill="#8B5CF6" style="animation-delay:0.2s"/><circle class="d" cx="1162" cy="36" r="3.5" fill="#8B5CF6" style="animation-delay:0.4s"/>
+</svg>

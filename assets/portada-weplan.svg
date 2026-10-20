@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="338" viewBox="0 0 600 338" role="img" aria-label="WePlan">
+  <title>WePlan</title>
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#FFFFFF" fill-opacity="0.09"/></pattern>
+    <linearGradient id="brand" x1="0" x2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+  <style>
+    .blob { animation: float ease-in-out infinite alternate; }
+    @keyframes float { 0% { transform: translate(0, 0) } 50% { transform: translate(60px, -30px) } 100% { transform: translate(-50px, 25px) } }
+    .tw { transform-box: fill-box; transform-origin: center; animation: tw ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity: .15; transform: scale(.6) } 50% { opacity: 1; transform: scale(1) } }
+
+    .cspin { transform-box: view-box; transform-origin: 500px 70px; animation: spin linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+
+    @keyframes up { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: none } }
+
+    .n { animation: up .8s ease-out .2s both; }
+    .s { animation: up .8s ease-out .5s both; }
+    .chip { animation: up .6s ease-out both; }
+</style>
+  <rect width="600" height="338" rx="16" fill="#0B1220"/>
+  <g><circle class="blob" cx="140" cy="300" r="150" fill="#EC4899" opacity="0.45" filter="url(#blur)" style="animation-duration:12s;animation-delay:-6s"/><circle class="blob" cx="480" cy="40" r="140" fill="#8B5CF6" opacity="0.4" filter="url(#blur)" style="animation-duration:15s;animation-delay:-4s"/></g>
+  <rect width="600" height="338" rx="16" fill="url(#dots)"/>
+  <g><g class="cspin" style="animation-duration:12s;animation-direction:normal"><circle cx="500" cy="70" r="40" fill="none" stroke="#EC4899" stroke-opacity="0.45" stroke-width="1.4" stroke-dasharray="3 6"/><circle cx="540" cy="70" r="3" fill="#EC4899" filter="url(#glow)" transform="rotate(30 500 70)"/></g><g class="cspin" style="animation-duration:20s;animation-direction:reverse"><circle cx="500" cy="70" r="64" fill="none" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1.4" stroke-dasharray="40 10"/><circle cx="564" cy="70" r="3.5" fill="#8B5CF6" filter="url(#glow)" transform="rotate(200 500 70)"/></g></g>
+  <g><path class="tw" d="M315.0 189.4 L316.4 192.6 L319.7 194.0 L316.4 195.4 L315.0 198.6 L313.7 195.4 L310.4 194.0 L313.7 192.6 Z" fill="#FFFFFF" style="animation-duration:4.2s;animation-delay:-3.5s"/><path class="tw" d="M229.6 292.1 L230.7 294.6 L233.2 295.7 L230.7 296.7 L229.6 299.2 L228.6 296.7 L226.1 295.7 L228.6 294.6 Z" fill="#FFFFFF" style="animation-duration:2.8s;animation-delay:-0.4s"/><path class="tw" d="M306.1 70.2 L307.0 72.4 L309.3 73.4 L307.0 74.3 L306.1 76.5 L305.1 74.3 L302.9 73.4 L305.1 72.4 Z" fill="#FFFFFF" style="animation-duration:3.5s;animation-delay:-3.1s"/><path class="tw" d="M431.4 51.5 L432.2 53.4 L434.0 54.2 L432.2 55.0 L431.4 56.8 L430.6 55.0 L428.7 54.2 L430.6 53.4 Z" fill="#FFFFFF" style="animation-duration:2.6s;animation-delay:-2.2s"/><path class="tw" d="M476.2 249.3 L477.6 252.7 L481.0 254.1 L477.6 255.6 L476.2 259.0 L474.7 255.6 L471.4 254.1 L474.7 252.7 Z" fill="#FFFFFF" style="animation-duration:3.5s;animation-delay:-2.5s"/><path class="tw" d="M191.8 114.9 L192.7 117.0 L194.8 117.9 L192.7 118.8 L191.8 120.9 L190.9 118.8 L188.8 117.9 L190.9 117.0 Z" fill="#FFFFFF" style="animation-duration:3.3s;animation-delay:-2.4s"/></g>
+  <text class="n" x="300.0" y="158" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="50" font-weight="800" fill="#FFFFFF" letter-spacing="-1">WePlan</text>
+  <text class="s" x="300.0" y="194" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#94A3B8">Actividades en equipo</text>
+  <g class="chip" style="animation-delay:0.90s"><rect x="202" y="222" width="53" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#EC4899" stroke-opacity="0.6"/><text x="228" y="242" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">PHP</text></g><g class="chip" style="animation-delay:1.05s"><rect x="264" y="222" width="71" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#EC4899" stroke-opacity="0.6"/><text x="300" y="242" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">MySQL</text></g><g class="chip" style="animation-delay:1.20s"><rect x="346" y="222" width="53" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#EC4899" stroke-opacity="0.6"/><text x="372" y="242" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">CSS</text></g>
+</svg>
