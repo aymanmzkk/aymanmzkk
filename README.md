@@ -1,53 +1,77 @@
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B6E8A,100:17202B&height=120&section=header&text=Ayman%20Mouzakki&fontSize=40&fontColor=FFFFFF&fontAlign=50&fontAlignY=45&desc=Desarrollador%20web%20%C2%B7%20Valencia&descSize=16&descAlign=50&descAlignY=75&descColor=CDE8F0" width="100%" alt="Ayman Mouzakki · Desarrollador web · Valencia" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003B57,50:0B6E8A,100:00B4D8&height=200&section=header&text=Ayman%20Mouzakki&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Desarrollador%20web%20%C2%B7%20Estudiante%20de%202%C2%BA%20DAM%20%C2%B7%20Valencia&descAlignY=60&descColor=E6F2F5&descSize=18" alt="Ayman Mouzakki" />
-
-[![CV](https://img.shields.io/badge/CV-PDF%20y%20web-0B6E8A?style=for-the-badge&logo=readdotcv&logoColor=white)](https://aymanmzkk.github.io/Curriculum/)
-[![Portafolio](https://img.shields.io/badge/Portafolio-proyectos-0B6E8A?style=for-the-badge&logo=githubpages&logoColor=white)](https://aymanmzkk.github.io/Portafolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-conecta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/)
-[![Email](https://img.shields.io/badge/Email-escr%C3%ADbeme-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aymanmouzakki17@gmail.com)
-
-</div>
-
-## 👋 Sobre mí
-
-- 💼 Desarrollador web en **Globearea** (Valencia)
-- 🎓 Estudiante de **2º de Desarrollo de Aplicaciones Multiplataforma** en CEAC FP Valencia
-- 🎯 **Busco prácticas de formación en empresa** en desarrollo web o de aplicaciones
-- 🌍 Hablo árabe, darija, francés, inglés y español
-
-## 🚀 Proyectos destacados
-
-| Proyecto | Qué es | Tecnologías |
-| --- | --- | --- |
-| [**KOOK**](https://github.com/aymanmzkk/KOOK) | Tienda de kits de cocina: carrito, pedidos, login y panel de administración, en ES/EN | Python · Flask · MySQL |
-| [**Kelma & Parola**](https://github.com/aymanmzkk/kelma-parola) 🚧 | App PWA para aprender idiomas en grupo: palabra diaria, retos y vocabulario | React · TypeScript · Supabase |
-| **Dietech** 🚧 | Dietas personalizadas según edad, peso, actividad y objetivo, con pedidos de platos | PHP · Laravel · MySQL |
-| [**Buscador Satori**](https://github.com/aymanmzkk/programacion-1DAM) | Crawler que indexa webs en MySQL y buscador en PHP | Python · PHP · MySQL |
-| [**WePlan**](https://github.com/BryanGF-hg/WePlan) 👥 | Plataforma para crear y unirse a actividades (proyecto en equipo) | PHP · MySQL |
-
-## 🛠️ Tecnologías
-
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+<p align="center">
+  <a href="https://aymanmzkk.github.io/Portafolio/"><img src="https://img.shields.io/badge/Portafolio-0B6E8A?style=flat-square&logo=githubpages&logoColor=white" alt="Portafolio" /></a>
+  <a href="https://aymanmzkk.github.io/Curriculum/"><img src="https://img.shields.io/badge/CV-17202B?style=flat-square&logo=readdotcv&logoColor=white" alt="CV" /></a>
+  <a href="https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:aymanmouzakki17@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-## 📚 Ahora mismo
+```js
+const ayman = {
+  trabajo:   "Desarrollador web @ Globearea",
+  estudios:  "2º de Desarrollo de Aplicaciones Multiplataforma · CEAC FP Valencia",
+  backend:   ["Python", "Flask", "PHP", "Laravel"],
+  frontend:  ["JavaScript", "TypeScript", "React", "Tailwind"],
+  datos:     ["MySQL", "Supabase"],
+  idiomas:   ["العربية", "Darija", "Français", "English", "Español"],
+  ahora:     "Acceso a datos, interfaces y apps móviles en 2º de DAM",
+};
+```
 
-Cursando 2º de DAM: acceso a datos, desarrollo de interfaces, programación de móviles,
-servicios y procesos, y sistemas de gestión empresarial.
+### 🧰 Tecnologías
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B4D8,50:0B6E8A,100:003B57&height=100&section=footer" alt="" />
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=py,flask,php,laravel,js,ts,react,html,css,tailwind,mysql,supabase,git,github,vscode&perline=15" alt="Python, Flask, PHP, Laravel, JavaScript, TypeScript, React, HTML, CSS, Tailwind, MySQL, Supabase, Git, GitHub, VS Code" />
+</p>
+
+### 🚀 Proyectos
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/aymanmzkk/KOOK"><img src="https://aymanmzkk.github.io/Portafolio/img/kook-home.webp" alt="KOOK" /></a>
+      <h4><a href="https://github.com/aymanmzkk/KOOK">KOOK</a></h4>
+      Tienda de kits de cocina con carrito, pedidos, login por roles y panel de administración. ES/EN.
+      <br><br>
+      <code>Python</code> <code>Flask</code> <code>MySQL</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://aymanmzkk.github.io/Mis-Proyectos/reloj-mundial.html"><img src="https://aymanmzkk.github.io/Portafolio/img/reloj.webp" alt="Reloj mundial" /></a>
+      <h4><a href="https://aymanmzkk.github.io/Mis-Proyectos/reloj-mundial.html">Reloj mundial</a> · demo en vivo</h4>
+      Reloj analógico en canvas con la hora de distintos países en tiempo real.
+      <br><br>
+      <code>JavaScript</code> <code>Canvas</code> <code>Intl</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/aymanmzkk/kelma-parola">Kelma &amp; Parola</a> 🚧</h4>
+      App PWA para aprender idiomas en grupo: palabra diaria, retos, vocabulario y racha compartida.
+      <br><br>
+      <code>React</code> <code>TypeScript</code> <code>Supabase</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Dietech 🚧</h4>
+      Dietas personalizadas según edad, peso, actividad y objetivo, con pedidos de platos preparados.
+      <br><br>
+      <code>PHP</code> <code>Laravel</code> <code>MySQL</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/aymanmzkk/programacion-1DAM">Buscador Satori</a></h4>
+      Crawler en Python que indexa webs en MySQL y buscador en PHP.
+      <br><br>
+      <code>Python</code> <code>PHP</code> <code>MySQL</code>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/BryanGF-hg/WePlan">WePlan</a> 👥</h4>
+      Plataforma para crear y unirse a actividades, hecha en equipo.
+      <br><br>
+      <code>PHP</code> <code>MySQL</code>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>Más detalles y capturas en mi <a href="https://aymanmzkk.github.io/Portafolio/">portafolio</a>.</sub></p>
