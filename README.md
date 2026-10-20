@@ -1,84 +1,53 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003B57,40:0078D7,100:00B4D8&height=230&section=header&text=¡Hola!%20Soy%20Ayman&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40&desc=Estudiante%20de%20DAM%20%7C%20Python%20Developer%20%7C%20Creative%20Coder&descAlignY=62&descColor=B3D9FF&descSize=20" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003B57,50:0B6E8A,100:00B4D8&height=200&section=header&text=Ayman%20Mouzakki&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Desarrollador%20web%20%C2%B7%20Estudiante%20de%202%C2%BA%20DAM%20%C2%B7%20Valencia&descAlignY=60&descColor=E6F2F5&descSize=18" alt="Ayman Mouzakki" />
 
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&random=false&width=600&height=50&lines=Python+Developer+🐍;Estudiante+de+DAM+🎓;Creative+Coder+🚀;Constructor+Constante+📈;Solucionador+Creativo+🧩)](https://git.io/typing-svg)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=aymanmzkk&label=Visitas%20al%20Perfil&color=007ACC&style=flat-square)
+[![CV](https://img.shields.io/badge/CV-PDF%20y%20web-0B6E8A?style=for-the-badge&logo=readdotcv&logoColor=white)](https://aymanmzkk.github.io/Curriculum/)
+[![Portafolio](https://img.shields.io/badge/Portafolio-proyectos-0B6E8A?style=for-the-badge&logo=githubpages&logoColor=white)](https://aymanmzkk.github.io/Portafolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-conecta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/)
+[![Email](https://img.shields.io/badge/Email-escr%C3%ADbeme-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aymanmouzakki17@gmail.com)
 
 </div>
 
----
+## 👋 Sobre mí
 
-<div align="center">
+- 💼 Desarrollador web en **Globearea** (Valencia)
+- 🎓 Estudiante de **2º de Desarrollo de Aplicaciones Multiplataforma** en CEAC FP Valencia
+- 🎯 **Busco prácticas de formación en empresa** en desarrollo web o de aplicaciones
+- 🌍 Hablo árabe, darija, francés, inglés y español
 
-📍 **Valencia, España** — Construyo soluciones digitales desde que la idea aparece en mi cabeza hasta que el código hace *click*.
+## 🚀 Proyectos destacados
 
-**Mi filosofía: Si puedo imaginarlo, puedo programarlo.**
+| Proyecto | Qué es | Tecnologías |
+| --- | --- | --- |
+| [**KOOK**](https://github.com/aymanmzkk/KOOK) | Tienda de kits de cocina: carrito, pedidos, login y panel de administración, en ES/EN | Python · Flask · MySQL |
+| [**Kelma & Parola**](https://github.com/aymanmzkk/kelma-parola) 🚧 | App PWA para aprender idiomas en grupo: palabra diaria, retos y vocabulario | React · TypeScript · Supabase |
+| **Dietech** 🚧 | Dietas personalizadas según edad, peso, actividad y objetivo, con pedidos de platos | PHP · Laravel · MySQL |
+| [**Buscador Satori**](https://github.com/aymanmzkk/programacion-1DAM) | Crawler que indexa webs en MySQL y buscador en PHP | Python · PHP · MySQL |
+| [**WePlan**](https://github.com/BryanGF-hg/WePlan) 👥 | Plataforma para crear y unirse a actividades (proyecto en equipo) | PHP · MySQL |
 
-</div>
+## 🛠️ Tecnologías
 
----
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+</p>
 
-## 🛠️ Mi Stack Tecnológico
+## 📚 Ahora mismo
 
-<div align="center">
+Cursando 2º de DAM: acceso a datos, desarrollo de interfaces, programación de móviles,
+servicios y procesos, y sistemas de gestión empresarial.
 
-| Categoría | Herramientas y Lenguajes |
-| :---: | :---: |
-| **Lenguajes** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-0D47A1?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
-| **Base de Datos** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) |
-| **Herramientas** | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Git](https://img.shields.io/badge/Git-0D47A1?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-0078D7?style=for-the-badge&logo=github&logoColor=white) |
-
-</div>
-
----
-
-## 📊 Mis Estadísticas de GitHub
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=aymanmzkk&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00B4D8&icon_color=007ACC&text_color=FFFFFF&ring_color=0078D7&include_all_commits=true&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aymanmzkk&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=00B4D8&text_color=FFFFFF" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=aymanmzkk&theme=dark&hide_border=true&background=0D1117&ring=00B4D8&fire=007ACC&currStreakLabel=00B4D8&sideNums=FFFFFF&currStreakNum=00B4D8&sideLabels=7EC8E3&dates=4FC3F7" />
-
-</div>
-
----
-
-## 👨‍💻 ¿Qué me hace diferente?
-
-- **⚡ Aprendizaje Continuo:** Mi formación no termina en el aula. Soy un apasionado autodidacta que vive experimentando con código real.
-- **🧩 Solucionador Creativo:** No me rindo ante un *bug*; lo veo como un puzzle que solo necesita la pieza correcta.
-- **📈 Constructor Constante:** Mejor un **1% cada día** que un 100% que nunca llega a escribirse.
-
-<div align="center">
-
-> *"El único código malo es el que nunca se escribe."*
->
-> — **Ayman, estudiante de DAM**
-
-</div>
-
----
-
-## 📫 Conecta conmigo
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0078D7?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayman-mouzakki-a1b63639b/)
-
-💬 **Hablemos de:** Python, bases de datos o por qué el código siempre funciona a la segunda.
-
-⭐ **Tip:** ¡Si te gusta lo que ves, una estrella en mis repositorios me motiva a seguir creando!
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B4D8,50:0078D7,100:003B57&height=150&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B4D8,50:0B6E8A,100:003B57&height=100&section=footer" alt="" />
