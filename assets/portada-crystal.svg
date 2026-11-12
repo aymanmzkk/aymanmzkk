@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="338" viewBox="0 0 1200 338" role="img" aria-label="Crystal">
+  <title>Crystal</title>
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#FFFFFF" fill-opacity="0.09"/></pattern>
+    <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#3B82F6"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+  </defs>
+  <style>
+    .blob { animation: float ease-in-out infinite alternate; }
+    @keyframes float { 0% { transform: translate(0, 0) } 50% { transform: translate(60px, -30px) } 100% { transform: translate(-50px, 25px) } }
+    .tw { transform-box: fill-box; transform-origin: center; animation: tw ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity: .15; transform: scale(.6) } 50% { opacity: 1; transform: scale(1) } }
+    .gem { transform-box: fill-box; transform-origin: center; animation: bob 5s ease-in-out infinite alternate; }
+    @keyframes bob { from { transform: translateY(-6px) } to { transform: translateY(6px) } }
+    @keyframes up { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: none } }
+    .n { animation: up .8s ease-out .2s both; }
+    .s { animation: up .8s ease-out .5s both; }
+    .chip { animation: up .6s ease-out both; }
+    .tile { animation: up .6s ease-out both; }
+  </style>
+  <rect width="1200" height="338" rx="16" fill="#0B1220"/>
+  <g><circle class="blob" cx="180" cy="300" r="170" fill="#8B5CF6" opacity="0.42" filter="url(#blur)" style="animation-duration:13s;animation-delay:-3s"/><circle class="blob" cx="1020" cy="40" r="160" fill="#22D3EE" opacity="0.38" filter="url(#blur)" style="animation-duration:16s;animation-delay:-1s"/></g>
+  <rect width="1200" height="338" rx="16" fill="url(#dots)"/>
+  <g><path class="tw" d="M60 60 L61.2 62.8 L64 64 L61.2 65.2 L60 68 L58.8 65.2 L56 64 L58.8 62.8 Z" fill="#FFFFFF" style="animation-duration:3.7s;animation-delay:-0.6s"/><path class="tw" d="M300 280 L301.2 282.8 L304 284 L301.2 285.2 L300 288 L298.8 285.2 L296 284 L298.8 282.8 Z" fill="#FFFFFF" style="animation-duration:2.6s;animation-delay:-1.2s"/><path class="tw" d="M640 50 L641 52.4 L643.4 53.4 L641 54.4 L640 56.8 L639 54.4 L636.6 53.4 L639 52.4 Z" fill="#FFFFFF" style="animation-duration:4.1s;animation-delay:-2.3s"/><path class="tw" d="M1150 290 L1151.2 292.8 L1154 294 L1151.2 295.2 L1150 298 L1148.8 295.2 L1146 294 L1148.8 292.8 Z" fill="#FFFFFF" style="animation-duration:3.3s;animation-delay:-0.4s"/></g>
+
+  <!-- Gema -->
+  <g class="gem" filter="url(#glow)">
+    <path d="M110 120 L150 90 L210 90 L250 120 L180 220 Z" fill="url(#gem)" fill-opacity="0.9"/>
+    <path d="M110 120 L250 120 M150 90 L130 120 L180 220 L230 120 L210 90 M150 90 L180 120 L210 90 M130 120 L180 120 L230 120" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.6" stroke-linejoin="round"/>
+  </g>
+
+  <text class="n" x="300" y="150" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Crystal</text>
+  <text class="s" x="302" y="186" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#94A3B8">Toda tu vida en una app que funciona sin internet</text>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">
+    <g class="chip" style="animation-delay:0.90s"><rect x="300" y="218" width="71" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="335.5" y="238" text-anchor="middle">React</text></g>
+    <g class="chip" style="animation-delay:1.00s"><rect x="380" y="218" width="110" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="435" y="238" text-anchor="middle">TypeScript</text></g>
+    <g class="chip" style="animation-delay:1.10s"><rect x="499" y="218" width="96" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="547" y="238" text-anchor="middle">Supabase</text></g>
+    <g class="chip" style="animation-delay:1.20s"><rect x="604" y="218" width="78" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="643" y="238" text-anchor="middle">Dexie</text></g>
+    <g class="chip" style="animation-delay:1.30s"><rect x="691" y="218" width="60" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.6"/><text x="721" y="238" text-anchor="middle">PWA</text></g>
+  </g>
+
+  <!-- Mini apps -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1" text-anchor="middle">
+    <g class="tile" style="animation-delay:1.4s"><rect x="830" y="96" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#22D3EE" stroke-opacity="0.5"/><text x="882" y="123">Calendario</text></g>
+    <g class="tile" style="animation-delay:1.5s"><rect x="946" y="96" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#3B82F6" stroke-opacity="0.5"/><text x="998" y="123">Tareas</text></g>
+    <g class="tile" style="animation-delay:1.6s"><rect x="1062" y="96" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#8B5CF6" stroke-opacity="0.5"/><text x="1114" y="123">Hábitos</text></g>
+    <g class="tile" style="animation-delay:1.7s"><rect x="830" y="152" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#8B5CF6" stroke-opacity="0.5"/><text x="882" y="179">Gimnasio</text></g>
+    <g class="tile" style="animation-delay:1.8s"><rect x="946" y="152" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#22D3EE" stroke-opacity="0.5"/><text x="998" y="179">Finanzas</text></g>
+    <g class="tile" style="animation-delay:1.9s"><rect x="1062" y="152" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#3B82F6" stroke-opacity="0.5"/><text x="1114" y="179">Viajes</text></g>
+    <g class="tile" style="animation-delay:2.0s"><rect x="830" y="208" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#3B82F6" stroke-opacity="0.5"/><text x="882" y="235">Clase</text></g>
+    <g class="tile" style="animation-delay:2.1s"><rect x="946" y="208" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#8B5CF6" stroke-opacity="0.5"/><text x="998" y="235">Recuerdos</text></g>
+    <g class="tile" style="animation-delay:2.2s"><rect x="1062" y="208" width="104" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#22D3EE" stroke-opacity="0.5"/><text x="1114" y="235">y más…</text></g>
+  </g>
+</svg>

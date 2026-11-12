@@ -26,6 +26,14 @@ Me gusta convertir ideas en aplicaciones completas: desde el diseño de la base 
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/aymanmzkk/Crystal"><img src="assets/portada-crystal.svg" alt="Crystal" /></a>
+      <h3><a href="https://github.com/aymanmzkk/Crystal">Crystal</a></h3>
+      App instalable para organizar mi día a día: calendario, tareas, hábitos, clase, gimnasio, finanzas, viajes y recuerdos. Funciona sin internet, guarda los datos en el dispositivo y tiene cuentas con roles y panel de administración.
+      <br><br><code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>Dexie</code> <code>PWA</code>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/aymanmzkk/KOOK"><img src="https://aymanmzkk.github.io/Portafolio/img/kook-home.webp" alt="KOOK" /></a>
       <h3><a href="https://github.com/aymanmzkk/KOOK">KOOK</a></h3>
